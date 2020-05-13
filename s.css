@@ -1,13 +1,15 @@
-
+p {
+    font-size: 1em;
+}
 
 #business-card {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -65px 0 0 -130px;
-  padding: 16px;
+  padding: 1em;
   border: 1px solid black;
-  border-radius: 8px;
+  border-radius: 0.5em;
 }
 
 #business-card > :first-child, #business-card > :last-child {
@@ -15,5 +17,5 @@
 }
 
 #name {
-    font-size: x-large;
+    font-size: 1.5em;
 }
