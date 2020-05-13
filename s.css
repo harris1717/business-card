@@ -1,0 +1,19 @@
+
+
+#business-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -65px 0 0 -130px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+#business-card > :first-child, #business-card > :last-child {
+    margin: 0;
+}
+
+#name {
+    font-size: x-large;
+}
